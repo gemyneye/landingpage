@@ -1,0 +1,52 @@
+.header {
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    padding: 0 8px;
+}
+
+.main-links a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.hero {
+    background: pink;
+    width: 100%;
+    height: 100px;
+}
+
+.samples {
+    background: coral;
+    width: 100%;
+    height: 100px;
+}
+.quote {
+    background: greenyellow;
+    width: 100%;
+    height: 100px;
+}
+.cta {
+    background: powderblue;
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+}
