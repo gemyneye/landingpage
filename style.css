@@ -50,3 +50,20 @@ footer {
     height: 70px;
     background-color: cornflowerblue;
 }
+
+.hero-internal {
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-internal__sign {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.hero-internal__image {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
