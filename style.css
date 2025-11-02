@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.5);
 }
 
 .header {
@@ -32,6 +32,9 @@ li {
     background: pink;
     width: 100%;
     min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .samples {
@@ -61,21 +64,21 @@ footer {
     justify-content:center;
     height: 300px;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 .hero-internal__sign {
-    min-height: 200px;
-    /* width: 300px; */
-    background-color: blue;
+    background-color: rgb(141, 141, 241);
 }
 
 .hero-internal__image {
-    min-height: 200px;
-    /* width: 300px; */
     background-color: red;
 }
 
 .hero-internal__sign,
 .hero-internal__image {
-    flex: 1;
+    width: 400px;
+    height: 200px;
+    padding: 8px;
 }
