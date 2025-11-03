@@ -9,7 +9,8 @@
 }
 .header,
 .cta-internal__box,
-button {
+button,
+footer {
     color: #f9faf8;
 }
 .header {
@@ -80,6 +81,9 @@ footer {
     width: 100%;
     height: 70px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-internal {
